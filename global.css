@@ -1,26 +1,64 @@
 html *
 {
-   font-size: large; 
+   font-size: large;
    /* The !important ensures that nothing can override what you've set in this style (unless it is also important). */
    font-family: Arial;
 }
 
-h1            { text-align: center; font-size: x-large; }
-th, td        { vertical-align: top; text-align: right; }   
+h1            {
+  text-align: center;
+  font-size: 55;
+  padding-bottom: 110px;
+  padding-top: 70px;
+  font-family: "Georgia", bold;
+  }
+th, td        {
+  vertical-align: top;
+  text-align: center;
+  padding: 10px  10px;
+  }
 /* #finaltable  * { color: white; background-color: black; }   */
 
 /* #finaltable table { border-collapse:collapse; } */
 /* #finaltable table, td { border:1px solid white; } */
-#finaltable:hover td { background-color: blue; } 
-tr:nth-child(odd)    { background-color:#eee; }
-tr:nth-child(even)    { background-color:#00FF66; }
-input        { text-align: right;  border: none;       }     /* Align input to the right  */
-textarea     { border: outset; border-color: white;       }                        
-table        { border: inset; border-color: white; }
-table.center { margin-left:auto; margin-right:auto; }
+table.center:hover td { background-color: #3F7742; }
+table.center tr:nth-child(odd)    { background-color:#7FAE75; }
+table.center tr:nth-child(even)    { background-color:#B4FAA5; }
+input        {
+  text-align: right;
+  border: none;
+  }     /* Align input to the right  */
+textarea {
+  text-align: center;       /* Align input to the right  */
+	border: none;
+	padding: 5px  5px;
+	color: #373737;
+	font-size:150%;
+  }
+table {
+  border: none;
+  margin:auto;
+  }
+table.center {
+  margin-top: 40px;
+  margin-left:auto;
+  margin-right:auto;
+  border: none;
+  color: black;
+  }
+span {
+  border-radius: 10px 10px 10px 10px;
+}
+button {
+  margin-top: 40px;
+}
 #result      { border-color: red; }
 tr.error       { background-color: red; }
 body
 {
  background-color:#b0c4de;  /* blue */
+ text-align: center;
+ font-weight: bold;
+ color: #336936;
+ font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
 }
