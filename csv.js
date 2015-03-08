@@ -35,6 +35,7 @@ function calculate() {
       }
       else {
         commonLength = m.length;
+        console.log("entro: " + commonLength);
         error = false;
       }
       for(var i in m) {
