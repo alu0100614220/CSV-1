@@ -21,13 +21,13 @@ function calculate() {
             "              <% }); %>";
 
   if (window.localStorage) localStorage.original  = temp;
-  
+
   for(var t in lines) {
     var temp = lines[t];
     var m = temp.match(regexp);
     var result = [];
     var error = false;
-    
+
     if (m) {
       if (commonLength && (commonLength != m.length)) {
         //alert('ERROR! row <'+temp+'> has '+m.length+' items!');
@@ -41,7 +41,7 @@ function calculate() {
         var removecomma = m[i].replace(/,\s*$/,'');
         var remove1stquote = removecomma.replace(/^\s*"/,'');
         var removelastquote = remove1stquote.replace(/"\s*$/,'');
-        var removeescapedquotes = removelastquote.replace(/\\"/,'"');
+        var removeescapedquotes = removelastquote.replace(/\\"/g,'"');
         result.push(removeescapedquotes);
       }
       var tr = error? '<tr class="error">' : '<tr>';
@@ -64,4 +64,3 @@ window.onload = function() {
     document.getElementById("original").value = localStorage.original;
   }
 };
-
