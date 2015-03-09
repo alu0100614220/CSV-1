@@ -1,0 +1,46 @@
+{
+  "name": "CSV",
+  "version": "0.0.1",
+  "description": "Aplicacion para procesar tabla de csv",
+  "main": "csv.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start karma.conf.js --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MauricioMCavalleriS/CSV.git"
+  },
+  "keywords": [
+    "csv",
+    "comma",
+    "values"
+  ],
+  "author": "Mauricio Manuel Cavalleri Sergent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MauricioMCavalleriS/CSV/issues"
+  },
+  "homepage": "https://github.com/MauricioMCavalleriS/CSV",
+  "devDependencies": {
+    "chai": "^2.1.0",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-minify-css": "^0.4.6",
+    "gulp-minify-html": "^1.0.0",
+    "gulp-uglify": "^1.1.0",
+    "gulp-util": "^3.0.3",
+    "karma": "^0.12.31",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-firefox-launcher": "^0.1.4",
+    "karma-html2js-preprocessor": "^0.1.0",
+    "karma-mocha": "^0.1.10",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "mocha": "^2.1.0",
+    "node-static": "^0.7.6"
+  }
+}
