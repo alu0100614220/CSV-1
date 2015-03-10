@@ -9,7 +9,7 @@ before_script:
   - export CHROME_BIN=chromium-browser
   - sh -e /etc/init.d/xvfb start
   - chmod +x ./node_modules/karma/bin/karma
-  - chmod +x ./gulpfile.js
+  - chmod +x ./node_modules/gulp/bin/gulp.js
 
 branches:
   only:
