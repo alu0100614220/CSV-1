@@ -6,24 +6,40 @@
   "directories": {
     "test": "tests"
   },
+
   "scripts": {
     "test": "gulp test"
   },
+
   "repository": {
     "type": "git",
     "url": "https://github.com/MauricioMCavalleriS/CSV.git"
   },
+
   "keywords": [
     "csv",
     "comma",
     "values"
   ],
+
   "author": "Mauricio Manuel Cavalleri Sergent",
+
   "license": "ISC",
+
   "bugs": {
     "url": "https://github.com/MauricioMCavalleriS/CSV/issues"
   },
+
   "homepage": "https://github.com/MauricioMCavalleriS/CSV",
+
+  "engines" {
+     "node": "0.10.x"
+ }
+
+  "dependencies" {
+      "express": "~4.9.x"
+  },
+
   "devDependencies": {
     "chai": "^2.1.0",
     "del": "^1.1.1",
