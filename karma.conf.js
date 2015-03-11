@@ -23,9 +23,11 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'node_modules/jquery/dist/*.js',
-      'node_modules/jquery/dist/cdn/*.js',
-      'node_modules/underscore/*.js',
+      //'node_modules/jquery/dist/*.js',
+      //'node_modules/jquery/dist/cdn/*.js',
+      //'node_modules/underscore/*.js',
+      "https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js",
+      "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js",
       'tests/index.html',
       '*.js',
       'tests/*.js'
