@@ -28,4 +28,4 @@ Para ver las pruebas puede acceder, en [la página de la aplicación](http://mau
 
 ### Heroku
 
-Puedes visitar [aquí](https://pl-1415-csv.herokuapp.com/) la página en heroku.
+Puedes visitar [aquí](https://pl-csv.herokuapp.com/) la página en heroku.
